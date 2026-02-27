@@ -18,3 +18,11 @@ def lowest_score(scores):
     if len(scores) == 0:
         return None
     return min(scores)
+
+def score_(scores):
+    return {
+        "total": total_score(scores),
+        "average": average_score(scores),
+        "highest": highest_score(scores),
+        "lowest": lowest_score(scores)
+    }
