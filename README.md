@@ -16,7 +16,7 @@ The program can:
 
 ---
 
-## 📂 Project Files
+## 📂 Project File's name
 
 ```
 Quiz.py
