@@ -1,4 +1,4 @@
-# Quiz Scorer
+# 📝 Quiz Scorer
 
 ## 📌 Project Overview
 
