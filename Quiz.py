@@ -26,3 +26,18 @@ def score_(scores):
         "highest": highest_score(scores),
         "lowest": lowest_score(scores)
     }
+
+
+if __name__ == "__main__":
+    print("Quiz Scorer")
+    print("Enter scores separated by space:")
+
+    user_input = input("|> ")
+    scores = list(map(int, user_input.split()))
+
+    result = score_(scores)
+    print("\nResults:")
+    print("Your Total Score:", result["total"])
+    print("Your Average Score:", result["average"])
+    print("Your Highest Score:", result["highest"])
+    print("Your Lowest Score:", result["lowest"])
